@@ -31,6 +31,10 @@
       margin: 0;
       padding: 0;
       list-style: none;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .tags>* {
@@ -40,6 +44,12 @@
       border-radius: 0.2em;
       font-size: 80%;
       margin: 5px;
+    }
+
+    .container {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   </style>
 
